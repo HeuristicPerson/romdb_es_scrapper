@@ -40,4 +40,4 @@ file to see a working example. Execute:
     python romdb_es_scrapper.py mdr-32x sample_data/roms/*.txt sample_data/dats/Sega_32X_20190417.dat sample_data/results/gamelist.xml sample_data/results
 
 It should obtain the information and download the screenshots for the seven included fake-ROMs to the folder
-`sample_data`.
+`sample_data/results`.
