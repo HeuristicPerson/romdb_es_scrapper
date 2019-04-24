@@ -33,3 +33,8 @@ Usage
   * `img_dir` Path of the directory to save the screenshots downloaded from ROMdb. The scrapper will automatically
     create sub-directories inside for each platform. e.g. `/home/john/screenshots/` would automatically create
     `/home/john/screenshots/ps1` directory for `ps1` games if that platform is selected.
+
+The program includes a folder with sample ROMs (they are just a set of `.txt` files with the proper name) and a `.dat`
+file to see a working example. Execute:
+
+    python romdb_es_scrapper.py mdr-32x sample_data/roms/*.txt sample_data/dats/Sega_32X_20190417.dat sample_data/results/gamelist.xml sample_data/results
